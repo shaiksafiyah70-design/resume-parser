@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Resume Analysis Result</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f6fb;
+margin:0;
+}
+
+.header{
+background:#ba8484;
+color:white;
+padding:20px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.container{
+width:900px;
+margin:30px auto;
+}
+
+.card{
+background:white;
+padding:25px;
+margin-bottom:25px;
+border-radius:12px;
+box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.title{
+font-size:22px;
+margin-bottom:15px;
+color:#333;
+font-weight:bold;
+border-bottom:2px solid #ba8484;
+padding-bottom:5px;
+}
+
+.textBox{
+background:#f9faff;
+padding:20px;
+border-radius:10px;
+line-height:1.7;
+white-space:pre-line;
+}
+
+.score{
+font-size:22px;
+margin-bottom:15px;
+color:#333;
+font-weight:bold;
+border-bottom:2px solid #ba8484;
+padding-bottom:5px;
+}
+
+.button{
+
+background:#702929;
+color:white;
+padding:15px;
+text-align:center;
+border-radius:8px;
+text-decoration:none;
+display:block;
+margin-top:20px;
+
+}
+
+.button:hover{
+
+background:#a45b5b;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="header">
+
+🤖 AI Resume Analysis Result
+
+</div>
+
+
+<div class="container">
+
+
+<div class="card">
+
+<div class="title">
+
+<div class="card">
+
+<div class="title">
+
+📊 Match Analysis Report
+
+</div>
+
+<div class="textBox">
+
+{{match}}
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="title">
+
+📄 Cover Letter
+
+</div>
+
+<div class="textBox">
+
+{{cover_letter}}
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<div class="title">
+
+📧 Email Draft
+
+</div>
+
+<div class="textBox">
+
+{{email}}
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<div class="title">
+
+📉 Skills Gap Analysis
+
+</div>
+
+<div class="textBox">
+
+{{gap}}
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<div class="title">
+
+✅ Resume Generated
+
+</div>
+
+Final Resume Saved in Project Folder
+
+</div>
+
+
+
+<a href="/" class="button">
+
+⬅ Upload Another Resume
+
+</a>
+
+
+</div>
+
+
+</body>
+
+</html>

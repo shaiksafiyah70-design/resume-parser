@@ -1,0 +1,16 @@
+Name: Safiyah 
+Email: safiya@gmail.com
+Phone: 9876543210
+
+Skills:
+Python
+Machine Learning
+SQL
+HTML
+CSS
+
+Education:
+BCA Student
+
+Experience:
+Built AI Projects and Websites
