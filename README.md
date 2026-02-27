@@ -71,3 +71,15 @@ Match Percentage:
 ---
 
 ##  Project Structure
+resume-parser/
+│
+├── app.py
+├── parser.py
+├── skills.py
+├── templates/
+│ └── index.html
+├── static/
+│ └── style.css
+├── venv/
+├── .env
+└── README.md
